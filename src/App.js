@@ -1,14 +1,12 @@
-import Header from './static-components/Header';
-import Footer from './static-components/Footer';
+import Navbar from './static-components/Navbar';
 import Main from './static-components/Main';
 import './App.css';
 
 function App() {
   return (
-    <div>
-		<Header/>
+    <div className="container">
+		<Navbar/>
 		<Main/>
-		<Footer/>
 	</div>
   );
 }
